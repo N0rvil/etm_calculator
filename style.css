@@ -22,7 +22,7 @@
 }
 
 .calculator__value {
-    margin-right: 50px; //margin
+    margin-right: 50px; 
     color: blue;
     float: left;
 }
