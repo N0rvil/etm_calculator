@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.calculator {
+    text-align: center;
+}
+
+.calculator__value {
+    margin-right: 50px;
+}
