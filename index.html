@@ -10,14 +10,19 @@
     <H1 class="header">etm calculator</H1>
 
     <div class="calculator">
-        <div><span class="calculator__value">I</span><input type="text" class="calculator__input" id="IValue"></div>
-        <div><span class="calculator__value">U</span><input type="text" class="calculator__input" id="UValue"></div>
-        <div><span class="calculator__value">delta I</span><input type="text" class="calculator__input" id="deltaIValue"></div>
-        <div><span class="calculator__value">delat U</span><input type="text" class="calculator__input" id="deltaUValue"></div>
-        <div class="calculator__btn" id="btn"><button>výsledek</button></div>
-        <h1>delta P</h1><h1 class="calculator__vysledek" id="vysledek1">1</h1>
-        <h1>delta R</h1><h1 class="calculator__vysledek" id="vysledek2">2</h1>
+        <div class="calculator__box"><span class="calculator__value">I</span><input type="text" class="calculator__input" id="IValue"></div>
+        <div class="calculator__box"><span class="calculator__value">U</span><input type="text" class="calculator__input" id="UValue"></div>
+        <div class="calculator__box"><span class="calculator__value">delta I</span><input type="text" class="calculator__input" id="deltaIValue"></div>
+        <div class="calculator__box"><span class="calculator__value">delat U</span><input type="text" class="calculator__input" id="deltaUValue"></div>
+
+        <div class="calculator__btn-box" id="btn"><button class="calculator__btn">výsledek</button></div>
     </div>
+
+
+    <div class="vysledek"><h1>delta P</h1><h1 id="vysledek1">__</h1></div>
+    <div class="vysledek"><h1>delta R</h1><h1 id="vysledek2">__</h1></div>
+
+    <h1 class="rules">Používejte základní jednotky a místo desetinné čárky tečku !!!</h1>
 
     <script src="script.js"></script>
 </body>
